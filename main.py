@@ -8,8 +8,8 @@ screenw = 1200
 screenh = 800
 screen = display.set_mode((screenw, screenh))
 colours = [(127, 230, 101), (255, 0, 0), (0, 0, 0)]
-font1 = font.Font("comicsans.TTF", 100)
-font2 = font.Font("comicsans.TTF", 80)
+font1 = font.SysFont("comicsans", 100)
+font2 = font.SysFont("comicsans", 80)
 
 def dotest(event):
 	times = 5
